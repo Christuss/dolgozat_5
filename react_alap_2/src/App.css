@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: lightblue;
+}
+
+.mainCard{
+  margin: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid rgb(92, 92, 92);
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+.questionCard{
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 10px;
+  color: white;
+}
+
+.answers {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.dropdown {
+  display: inline;
+
+}
+.item {
+  color: black;
+}
+
+.dropdownMenu {
+  display: flex;
+  background-color: lightgray;
+  border-radius: 5px;
+  color: black;
+}
+
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  background-color: rgb(211, 211, 211);
+}
+
+@media only screen and (max-width: 700px) {
+  .answers {
+    grid-template-columns: 1fr;
+  }
+}

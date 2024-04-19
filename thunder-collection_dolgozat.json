@@ -1,0 +1,56 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "dolgozat",
+    "dateExported": "2024-04-19T11:47:56.278Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "745c9d3b-eaef-4a4a-b979-6772e5bc21dc",
+            "colId": "780c2ebf-bb17-4312-a9c0-e92b9564f4e7",
+            "containerId": "",
+            "name": "teszte",
+            "url": "/tesztek",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-19T11:44:38.136Z",
+            "modified": "2024-04-19T11:47:09.503Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "15aac5f4-2757-4eed-b434-03433c11f190",
+            "colId": "780c2ebf-bb17-4312-a9c0-e92b9564f4e7",
+            "containerId": "",
+            "name": "tesztek_kategoria",
+            "url": "/tesztek/kategoria/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T11:47:25.158Z",
+            "modified": "2024-04-19T11:47:37.841Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c5300b7c-d235-45d1-b48b-2bbb4ff3bb74",
+            "colId": "780c2ebf-bb17-4312-a9c0-e92b9564f4e7",
+            "containerId": "",
+            "name": "kategoria",
+            "url": "/kategoria",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-19T11:47:45.955Z",
+            "modified": "2024-04-19T11:47:50.689Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000"
+        }
+    }
+}
